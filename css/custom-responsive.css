@@ -1,0 +1,109 @@
+@media only screen and (min-width:1024px) and (max-width:1365px){
+    header .bottom-back .right-details .navigation li a{ padding: 0 23px; font-size: 14px;}
+    .hero-back-details .content .main-content .details{ width: 56%;}
+	
+}
+
+
+@media only screen and (max-width:1023px) and (min-width:768px) {
+    header{ text-align: center;}
+    header .left{ float: none; display: inline-block;}
+    header .right{ float: none; display: inline-block;}
+
+    header .bottom-back{ text-align: center;}
+    header .bottom-back .logo{ float: none; display: inline-block; margin-bottom: 15px;}
+    header .bottom-back .right-details{ float: none; display: inline-block;}
+    .hero-back-details .portion{ height: 383px;}
+    .hero-back-details .container{height: 383px;}
+    .hero-back-details .content .main-content .details{ width: 72%;}
+    .hero-back-details .content h2{ font-size: 35px;     line-height: 40px;}
+    .hero-back-details .content .custom-button{ margin-top: 20px;}
+    .service-section .left{ padding-right: 0; padding-top: 0;}
+    .service-section .right{ padding-left: 0;}
+    .why-choose .main-back .portion{ margin-bottom: 30px;}
+    .contact .main-section .portion textarea{ margin-top: 12px;}
+    
+    .section .about-image-back{ padding-right: 0;}
+    .section .about-us-back.inner h1:after{ right: 0;}
+    
+    
+
+}
+
+@media only screen and (max-width:767px) {
+    header{ text-align: center;}
+    header .left{ float: none; display: inline-block;}
+    header .right{ float: none; display: inline-block;}
+
+    header .bottom-back{ text-align: center;}
+    header .bottom-back .logo{ float: none; display: inline-block; margin-bottom: 15px; margin-top: 0;}
+    header .bottom-back .right-details{ float: none; display: inline-block;}
+    .hero-back-details .portion{ height: 383px;}
+    .hero-back-details .container{height: 383px;}
+    .hero-back-details .content .main-content .details{ width: 72%;}
+    .hero-back-details .content h2{ font-size: 35px;     line-height: 40px;}
+    .hero-back-details .content .custom-button{ margin-top: 20px;}
+    
+    .service-section .left{ padding-right: 0; padding-top: 0;}
+    .service-section .right{ padding-left: 0;}
+    .why-choose .main-back .portion{ margin-bottom: 30px;}
+    .contact .main-section .portion textarea{ margin-top: 12px;}
+    .section .about-image-back{ padding-right: 0;}
+    header .bottom-back .right-details .mobile-menu .logo{ display: none;}
+    .section .about-us-back.inner h1:after{ right: 0;}
+}
+@media only screen and (max-width:765px) {
+    header .bottom-back .right-details .navigation li a{    padding: 0 16px; font-size: 14px;}
+}
+@media only screen and (max-width:639px) {
+    /*header .bottom-back .right-details .navigation{ display: none;}*/
+    header .bottom-back .right-details .mobile-menu .logo{ display: block ; padding: 40px 16px 24px; position: relative; width: 100%; }
+    header .bottom-back .right-details .mobile-menu .logo img{ width: 180px; float: left; margin: 0;}
+    header .bottom-back .right-details .mobile-menu .logo span{ position: absolute; top: 15px; right: 16px; bottom: 0; margin: auto; font-size: 40px; color: #000; height: 31px; }
+    header .bottom-back .right-details .mobile-menu{ width: 300px; height: 100%; position: fixed; top: 0; left: -100%; opacity: 0; margin: auto; background-color: #fff; z-index: 99; transition: all .4s ease-in-out; -webkit-transition: all .4s ease-in-out; box-shadow: rgba(255,255,255,.2) 1px 0 20px;}
+    header .bottom-back .right-details .mobile-menu.open{ opacity: 1; left: 0;}
+    header .bottom-back .right-details .navigation{ width: 100%;}
+    header .bottom-back .right-details .navigation li{ width: 100%;}
+    header .bottom-back .right-details .navigation li a{ width: 100%; text-align: left; border-bottom: #ddd 1px solid; border-radius: 0;}
+    header .bottom-back .right-details .navigation li:last-child a{ background-color: transparent;     color: #0b0c26;}
+
+    header .bottom-back .logo{ float: left;margin-bottom: 0;} 
+    .humberger-menu{ display: block;}
+    header .right ul li{    margin: 0 15px 0 0; padding: 0 15px 0 0;}
+}
+
+@media only screen and (max-width:500px) {
+    .hero-back-details .container{height: 264px;}
+    .hero-back-details .portion{ height: 264px;}
+    .hero-back-details .content .main-content .details{ width: 100%; text-align: center;}
+    .hero-back-details .content h2{ font-size: 24px; line-height: 28px;}
+    .hero-back-details .content .custom-button{ margin-top: 10px;}
+    .hero-back-details .content .custom-button.left{ display: inline-block; float: none;}
+    .hero-back-details .content .custom-button a{ width: 140px; height: 40px; line-height: 40px;}
+    .section .about-us-back{ text-align: center;}
+    .heading.left{text-align: center;}
+    .heading h1{ font-size: 36px;}
+    .section .about-us-back{ padding-top: 46px;}
+    .section .blue{ font-size: 17px;}
+    .service-section h3{ font-size: 24px;}
+}
+
+@media only screen and (max-width:420px) {
+    header .bottom-back .logo img{ width: 234px;}
+    header{font-size: 12px;}
+    header .right ul li{ font-size: 12px; margin: 0 7px 0 0; padding: 0 7px 0 0;}
+    header span{    margin-right: 4px; font-size: 13px;}
+    .hero-back-details .content mark{ font-size: 13px; padding: 8px;}
+    .hero-back-details .content h2{ margin-top: 8px; font-size: 18px;}
+    .hero-back-details .content p{ font-size: 14px; line-height: 18px;}
+    .heading{ margin-bottom: 13px;}
+    .heading h1{ font-size: 30px;}
+    .section .blue{ font-size: 12px;}
+    .section .blue{ margin-bottom: 6px;}
+    .section p{ font-size: 14px; width: 90%; display: inline-block}
+}
+
+
+
+
+
